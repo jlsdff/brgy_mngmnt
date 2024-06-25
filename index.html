@@ -8,15 +8,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-slate-100">
-
     <header class="px-16 py-8 border-b-2 border-neutral-500/50">
-      <nav class="flex justify-between items-center">
+      <nav class="flex items-center justify-between">
         <ul class="flex items-center gap-4">
-          <li><h2 class="font-bold text-2xl">BRGY 835</h2></li>
           <li>
-            <a class="text-base text-neutral-700 hover:text-neutral-900" href=""
-              >Home</a
-            >
+            <a href="#"><h2 class="text-2xl font-bold">BRGY 835</h2></a>
           </li>
           <li>
             <a class="text-base text-neutral-700 hover:text-neutral-900" href=""
@@ -41,32 +37,310 @@
         </ul>
 
         <ul>
-          <li> 
-            <button class="bg-blue-500 transition-all hover:bg-blue-700 text-white px-4 py-2 rounded-md">
+          <li>
+            <button
+              class="px-4 py-2 text-white transition-all bg-blue-500 rounded-md hover:bg-blue-700"
+            >
               Login
             </button>
           </li>
         </ul>
       </nav>
     </header>
-    
-    <main class="">
 
+    <main class="">
       <!-- Hero -->
-      <section class="min-h-[calc(100vh-100px)]">
-        <div>
+      <section class="min-h-[calc(100vh-100px)] flex px-16 items-center">
+        <div class="flex items-center w-full">
           <!--  -->
-          <div>
+          <div class="w-1/2 space-y-4">
             <h1 class="text-4xl font-black">BARANGAY 835</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            <p>Your Partner in Progress and Community Well-being.</p>
           </div>
           <!-- Image -->
-          <div></div>
+          <div
+            id="default-carousel"
+            class="relative w-1/2"
+            data-carousel="slide"
+          >
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/1.jpg"
+                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt="..."
+                />
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/2.jpg"
+                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt="..."
+                />
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/3.jpg"
+                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt="..."
+                />
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/4.jpg"
+                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt="..."
+                />
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/5.jpg"
+                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt="..."
+                />
+              </div>
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="/6.jpg"
+                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+      <!-- About us -->
+      <section class="flex items-center px-16 py-16 bg-slate-300">
+        <div class="space-y-4">
+          <h2 class="text-3xl font-bold text-center">About us</h2>
+          <p class="text-lg tracking-wide">
+            Welcome to Barangay 835, a thriving community dedicated to fostering
+            a safe, inclusive, and progressive environment for all our
+            residents. Our barangay is committed to promoting sustainable
+            development, enhancing quality of life, and ensuring that every
+            voice is heard. Join us as we work together to create a brighter
+            future for everyone.
+          </p>
+        </div>
+      </section>
+      <!-- Barangay Officials -->
+      <section class="min-h-[80vh] flex flex-col gap-4 p-16">
+        <h2 class="text-3xl font-bold text-center">Our Officials</h2>
+        <div class="flex flex-col items-center justify-center w-full gap-4">
+          <div class="flex flex-col items-center w-1/3">
+            <div class="w-1/2">
+              <img
+                src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e5358878e2493fbea064dd9_peep-59.svg"
+                alt=""
+                class="w-full rounded-lg"
+              />
+            </div>
+            <div class="w-3/4 text-center">
+              <h3 class="text-xl font-bold">Hon. Juan Dela Cruz</h3>
+              <p>Barangay Captain</p>
+            </div>
+          </div>
 
+          <div class="grid grid-cols-7 gap-4">
+            <div class="flex flex-col items-center w-full">
+              <div class="w-1/2">
+                <img
+                  src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e5353e82b568af2d916cbbd_peep-26.svg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <div class="w-3/4 text-center">
+                <h3 class="text-xl font-bold">Hon. Jane Doe</h3>
+                <p>Barangay Kagawad</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center w-full">
+              <div class="w-1/2">
+                <img
+                  src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e535be8d871310468110f17_peep-88.svg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <div class="w-3/4 text-center">
+                <h3 class="text-xl font-bold">Hon. Ma. Joy</h3>
+                <p>Barangay Kagawad</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center w-full">
+              <div class="w-1/2">
+                <img
+                  src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e535d314600800f758ffa34_peep-99.svg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <div class="w-3/4 text-center">
+                <h3 class="text-xl font-bold">Hon. KFC</h3>
+                <p>Barangay Kagawad</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center w-full">
+              <div class="w-1/2">
+                <img
+                  src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e535a2b8e24938384074dac_peep-73.svg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <div class="w-3/4 text-center">
+                <h3 class="text-xl font-bold">Hon. Marcos Lewis</h3>
+                <p>Barangay Kagawad</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center w-full">
+              <div class="w-1/2">
+                <img
+                  src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e53566767293a5a435c41a7_peep-41.svg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <div class="w-3/4 text-center">
+                <h3 class="text-xl font-bold">Pasta Italyano</h3>
+                <p>Barangay Kagawad</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center w-full">
+              <div class="w-1/2">
+                <img
+                  src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e535cbcf5fa1a60fafcfcab_peep-95.svg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <div class="w-3/4 text-center">
+                <h3 class="text-xl font-bold">Hon. Ugri Magi</h3>
+                <p>Barangay Kagawad</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center w-full">
+              <div class="w-1/2">
+                <img
+                  src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e5358878e2493fbea064dd9_peep-59.svg"
+                  alt=""
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <div class="w-3/4 text-center">
+                <h3 class="text-xl font-bold">Hon. Juan Dela Cruz Jr.</h3>
+                <p>Barangay Kagawad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects & Awards -->
+      <section class="p-16 space-y-4">
+        <h2 class="text-3xl font-bold text-center">Projects & Awards</h2>
+        <p class="text-lg tracking-wider">
+          Barangay 835 has been recognized for its outstanding projects and
+          initiatives that have made a positive impact on the community. We are
+          proud to have received the following awards:
+        </p>
+        <div class="flex items-stretch justify-center gap-4">
+          <div class="w-full max-w-sm p-8 border border-neutral-500">
+            <h3 class="text-xl font-bold">Best Barangay in the City</h3>
+            <p>2020</p>
+            <ul>
+              <li>
+                <p class="text-justify">
+                  Barangay 835 was awarded the Best Barangay in the City for its
+                  commitment to promoting sustainable development and enhancing
+                  quality of life for all residents.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full max-w-sm p-8 border border-neutral-500">
+            <h3 class="text-xl font-bold">Outstanding Community Project</h3>
+            <p>2019</p>
+            <ul>
+              <li>
+                <p class="text-justify">
+                  Barangay 835 was recognized for its outstanding community
+                  project that has made a positive impact on the lives of
+                  residents.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full max-w-sm p-8 border border-neutral-500">
+            <h3 class="text-xl font-bold">Excellence in Public Service</h3>
+            <p>2018</p>
+            <ul>
+              <li>
+                <p class="text-justify">
+                  Barangay 835 was honored for its excellence in public service
+                  and dedication to serving the community.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Emergency Hotlines -->
+      <section class="p-16 space-y-4">
+        <h2 class="text-3xl font-bold">Emergency Hotlines</h2>
+        <p class="text-lg tracking-wide">
+          In times of need, it is crucial to have quick access to essential
+          services. Here are the emergency hotlines you can call for immediate
+          assistance:
+        </p>
+        <ul>
+          <li class="">
+            Barangay Hotlines: <span class="font-bold">+639123415123</span>
+          </li>
+          <li class="">
+            Police Station: <span class="font-bold">+63911251246</span>
+          </li>
+          <li class="">
+            Fire Department: <span class="font-bold">+639991235787</span>
+          </li>
+          <li class="">
+            Health Center: <span class="font-bold">+6391789763</span>
+          </li>
+        </ul>
+      </section>
+      <!-- Footer -->
+      <section class="pt-8 space-y-8 bg-slate-900 text-slate-100">
+        <p class="px-16">
+          Thank you for visiting Barangay 835's official website. We are here
+          to serve and support our community. Stay connected with us through our
+          social media channels or visit our barangay hall for any inquiries.
+        </p>
+        <ul class="flex justify-center gap-4 px-16">
+          <li>
+            <span>Beata St. Pandacan Manila</span>
+          </li>
+          <li>
+            <span>
+              +639123415123
+            </span>
+          </li>
+          <li>
+            <span>brgy835@gov.ph</span>
+          </li>
+        </ul>
+        <div class="text-center bg-white text-neutral-800">
+          <span>©️ Barangay 835 2024 </span>
+        </div>
+      </section>
     </main>
-    
-    <script src="/main.js"></script>
+
+    <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
 </html>
